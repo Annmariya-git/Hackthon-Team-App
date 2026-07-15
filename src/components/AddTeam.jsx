@@ -36,7 +36,7 @@ const AddTeam = () => {
 
         console.log(input)
 
-        axios.post("https://host-demo-app.onrender.com/api/add-team", input).then(
+        axios.post("http://localhost:3000/add-team", input).then(
 
             (response) => {
 
