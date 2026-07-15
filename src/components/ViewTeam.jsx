@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import NavTeam from './NavTeam'
 
 
 const ViewTeam = () => {
@@ -34,7 +35,7 @@ const ViewTeam = () => {
 
         <div>
 
-            
+            <NavTeam />
 
             <div className="container">
 

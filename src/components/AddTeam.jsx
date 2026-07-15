@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React from 'react'
 import { useState } from 'react'
+import NavTeam from './NavTeam'
 
 
 
@@ -50,7 +51,7 @@ const AddTeam = () => {
         <div>
 
             
-
+            <NavTeam />
             <div className="container">
 
                 <div className="row">
