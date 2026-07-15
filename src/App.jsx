@@ -16,7 +16,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<AddTeam />}/>
-        <Route path='/ViewTeam' element={<ViewTeam />}/>
+        <Route path='/View' element={<ViewTeam />}/>
       </Routes>
       </BrowserRouter>
     </>

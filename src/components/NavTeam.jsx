@@ -30,7 +30,7 @@ const NavTeam = () => {
 
                         <a class="nav-link" href="/">AddTeam</a>
 
-                        <a class="nav-link" href="/ViewTeam">ViewAllTeams</a>
+                        <a class="nav-link" href="/View">ViewTeam</a>
 
                     </div>
 
