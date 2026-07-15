@@ -9,7 +9,7 @@ const ViewTeam = () => {
 
     const fetchData = () => {
 
-        axios.post("http://localhost:3000/view-all-teams")
+        axios.get("http://localhost:3000/view-team")
             .then((response) => {
 
                 changeData(response.data)
