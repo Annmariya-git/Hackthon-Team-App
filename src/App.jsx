@@ -3,13 +3,22 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import AddTeam from './components/AddTeam'
+import ViewTeam from './components/ViewTeam'
+import NavTeam from './components/NavTeam'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<AddTeam />}/>
+        <Route path='/ViewTeam' element={<ViewTeam />}/>
+      </Routes>
+      </BrowserRouter>
     </>
   )
 }
